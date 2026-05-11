@@ -1,0 +1,24 @@
+@import url("reset.css");
+.area {
+    width: 100%;
+    height: 1200px;
+}
+#area1 {
+    background: url("../images/pint1.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#area2 {
+    background: url("../images/pint2.jpg") no-repeat center / cover;
+}
+#area3 {
+    background: url("../images/pint3.jpg") no-repeat center / cover;
+    background-attachment: fixed;
+}
+#area4 {
+    background: url("../images/pint4.jpg") no-repeat center / cover;
+}
+#area5 {
+    background: url("../images/pint5.jpg") no-repeat center / cover;
+    background-attachment: fixed;
+}

@@ -1,0 +1,44 @@
+@import url("reset.css");
+.search{
+    padding: 10px 25px;
+    background: url("../images/magnifying-glass-solid.png")no-repeat left center;
+    background-size: 20px;
+}
+.book{
+    padding: 10px 25px;
+    background: url("../images/book-icon.png")no-repeat left bottom;
+    background-size: 20px;
+}
+.product{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 1px solid#888;
+    background: url("../images/shose-removebg-preview\ 1.png")no-repeat top center;
+    background-size: 200px;
+    background-origin: content-box;
+    padding: 20px;
+}
+.product h3{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.product2{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid#888;
+    background: url("../images/duck.gif")no-repeat top center;
+    background-size: 150px;
+    background-origin: content-box;
+    padding: 20px;
+}
+.product2 h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(47, 10, 61);
+    font-size: 16px;
+}
